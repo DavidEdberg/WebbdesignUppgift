@@ -6,33 +6,7 @@
 }
 
 
-#myCarousel h1, #myCarousel p{
-    color: #343a40;
-}
 
-.icons {
-    font-size: 3em;
-}
-
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    font-size: 2vw;
-    color: rgba(255,255,255,.5);
-    background: #343a40;
-}
-
-
-footer p {
-    margin: 0;
-}
-
-footer a {
-    color: rgba(255,255,255,.5);
-}
-
-footer a:hover {
-    color: rgba(255,255,255,.8);
-
-}
+.carousel-item > img {
+    width:100%;
+  }
