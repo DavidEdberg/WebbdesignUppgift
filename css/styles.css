@@ -5,7 +5,7 @@
     padding-bottom: 0.2em;
 }
 
-.icons {
-    font-size: 3em;
-}
 
+.carousel-item > img {
+    width:100%;
+  }
