@@ -1,6 +1,12 @@
 .titleText{
     font-family: 'Pacifico', cursive;
-    font-size: 5em;
+    font-size: 4em;
+    color: #343a40;
+    padding-bottom: 0.2em;
+}
+
+.icons {
+    font-size: 3em;
 }
 
 .jumbotron{
