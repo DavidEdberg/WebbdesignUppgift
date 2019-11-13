@@ -321,7 +321,24 @@
     margin-bottom: 3vh;
 }
 
-.carousel-item img{
-    width: 100%;
 
+
+
+@media screen and (min-width: 1400px) {
+    .carousel-item img{
+        width: 100%;
+    
+    }
+  }
+
+
+  @media screen and (max-width: 600px) {
+    .btn-warning{
+        display: none;
+    }
+ 
+  
 }
+
+
+  
