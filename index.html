@@ -35,10 +35,37 @@
             <li class="nav-item">
                 <a class="nav-link" href="vision.html">Vår Vision</a>
               </li>
-              <li class="nav-item">
-                  <a class="nav-link" id="shop" href="#"><i class="fas fa-shopping-cart"></i></a>
-                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link" id="shop" href="#" id="cartDropdown" role="button" data-toggle="dropdown"
+                      aria-haspopup="true" aria-expanded="false"><i class="fas fa-shopping-cart"></i></a>
+                  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="cartDropdown" id="showMe">
             
+                      <div class="container text-center">
+                          <div class="row">
+                              <img class="col-12" src="img/shopping.png" alt="product-image">
+                              <p class="col-12">Musk 299 kr</p>
+                          </div>
+                      </div>
+                      <hr>
+                      <div class="container text-center">
+                          <div class="row">
+                              <img class="col-12" src="img/shopping.png" alt="product-image">
+                              <p class=" col-12">Man 299 kr</p>
+                          </div>
+                      </div>
+                      <hr>
+                      <div class="container text-center">
+                          <div class="row">
+                              <img class="col-12" src="img/shopping.png" alt="product-image">
+                              <p class="col-12">Him 299 kr</p>
+                          </div>
+                      </div>
+                      <hr>
+                      <a class="btn btn-primary col-12" href="#" role="button">Till kassan</a><br>
+                      <a class="btn btn-warning col-12" href="#" role="button">Hjälp?</a>
+                  </div>
+              </li>
+
           </ul>
         </div>
       </nav>
@@ -236,6 +263,10 @@
         </div>
     </div>
 
+   
+
+
+   
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>

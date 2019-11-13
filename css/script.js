@@ -7,3 +7,9 @@ $(function(){
 		$('#qnimate').removeClass('popup-box-on');
 	});
 });
+
+$(document).ready(function(){
+	$(".buySchampo").click(function(){
+	  $("#showMe").toggle();
+	});
+  });

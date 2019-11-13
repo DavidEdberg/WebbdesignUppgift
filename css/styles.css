@@ -1,6 +1,13 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,300);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
+
+
+.dropdown-menu{
+    white-space: nowrap;
+    padding: 20px;
+}
+
 .titleText{
     font-family: 'Pacifico', cursive;
     font-size: 4em;
@@ -9,8 +16,25 @@
 }
 .nav-item{
     margin: auto;
-   
 }
+#cartScript li:nth-child(odd) { 
+    background: #ffffff; 
+}
+#cartScript li:nth-child(even) { 
+    background: #80808030; 
+}
+
+#cartScript{
+    width: auto;
+    height: auto;
+    position: absolute;
+    right: 0;
+    top: 60px;
+    background-color: white;
+    list-style: none;
+    border: solid black;
+}
+
 
 .nav-link:hover {
      color: black !important;
@@ -295,4 +319,9 @@
 
 .carousel-caption h1, a{
     margin-bottom: 3vh;
+}
+
+.carousel-item img{
+    width: 100%;
+
 }
