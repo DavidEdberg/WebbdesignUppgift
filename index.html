@@ -13,34 +13,65 @@
 </head>
 
 <body>
-    <header>
-        <h1 class="titleText text-center">Schampo.se</h1>
-    </header>
+
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <h1 class="titleText ">Schampo.se</h1>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample08"
             aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-  
-        <div class="collapse navbar-collapse justify-content-md-center text-uppercase font-weight-bold" id="navbarsExample08">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Hem </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="products.html">Produkter</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Kontakt</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="vision.html">Vår Vision</a>
-              </li>
-            
-          </ul>
+
+        <div class="collapse navbar-collapse " id="navbarsExample08">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Hem </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="products.html">Produkter</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Kontakt</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="vision.html">Vår Vision</a>
+                </li>
+
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link text-center" id="shop" href="#" id="cartDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false"><i class="fas fa-shopping-cart"></i></a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="cartDropdown">
+
+                        <div class="container">
+                            <div class="row">
+                                <img class="col-5" src="img/shopping.png" alt="product-image">
+                                <p class="align-middle">Product 1</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="container">
+                            <div class="row">
+                                <img class="col-5" src="img/shopping.png" alt="product-image">
+                                <p class="align-middle">Product 2</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="container">
+                            <div class="row">
+                                <img class="col-5" src="img/shopping.png" alt="product-image">
+                                <p class="align-middle">Product 3</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <a class="btn btn-primary col-12" href="#" role="button">Till kassan</a>
+                    </div>
+                </li>
+
+            </ul>
         </div>
     </nav>
+
 
 
 
@@ -52,37 +83,46 @@
             <li data-target="#myCarousel" data-slide-to="2" class=""></li>
         </ol>
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="first-slide" src="img/hair1.jpg" alt="First slide" >
-            <div class="container">
-              <div class="carousel-caption">
-                <h1>För ett tjockt och fylligt hår i framtiden</h1>
-                <p>Du behöver inte längre oroa dig för att bli tunnhårig. <br>Vårt schampo är lösningen.</p>
-                <p><a class="btn btn-lg btn-primary" href="#" role="button">Var dig själv</a>
-                <a class="btn btn-lg btn-warning addClass" href="#" role="button">Chatta med oss</a></p>
-              </div>
+            <div class="carousel-item active">
+                <img class="first-slide" src="img/hair1.jpg" alt="First slide">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>För ett tjockt och fylligt hår i framtiden</h1>
+                        <p>Du behöver inte längre oroa dig för att bli tunnhårig. <br>Vårt schampo är lösningen.</p>
+                        <a class="btn btn-lg btn-primary" href="#" role="button">Var dig själv</a>
+                        <a class="btn btn-lg btn-warning addClass" href="#" role="button">Chatta med oss</a>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="carousel-item">
-            <img class="second-slide" src="img/hair2.jpg" alt="Second slide">
-            <div class="container">
-              <div class="carousel-caption">
-                <h1>När håravfall inte känns rätt dig</h1>
-                <p>Du får tjockt och fylligt hår om du använder vår produkt.</p>
-                <p><a class="btn btn-lg btn-primary" href="#" role="button">Hår utan Gränser</a>
-                  <a class="btn btn-lg btn-warning addClass" href="#" role="button">Kontakta oss Direkt</a></p>
-              </div>
+            <div class="carousel-item">
+                <img class="second-slide" src="img/hair2.jpg" alt="Second slide">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>När håravfall inte känns rätt dig</h1>
+                        <p>Du får tjockt och fylligt hår om du använder vår produkt.</p>
+                        <a class="btn btn-lg btn-primary" href="#" role="button">Hår utan Gränser</a>
+                        <a class="btn btn-lg btn-warning addClass" href="#" role="button">Kontakta oss Direkt</a>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="carousel-item">
-            <img class="third-slide" src="img/hair-3.jpg" alt="Third slide" >
-            <div class="container">
-              <div class="carousel-caption">
-                <h1>Schampo för dig som vill fortsätta leva livet</h1>
-                <p>Vårt testvinnande schampo äntligen tillgängligt helt receptfritt.</p>
-                <p><a class="btn btn-lg btn-primary" href="#" role="button">Köp Nu</a>
-                  <a class="btn btn-lg btn-warning addClass" href="#" role="button">Vi hjälper dig</a></p>
-              </div>
+            <div class="carousel-item">
+                <img class="third-slide" src="img/hair-3.jpg" alt="Third slide">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Schampo för dig som vill fortsätta leva livet</h1>
+                        <p>Vårt testvinnande schampo äntligen receptfritt.</p>
+                        <a class="btn btn-lg btn-primary" href="#" role="button ">Köp Nu</a>
+                        <a class="btn btn-lg btn-warning addClass" href="#" role="button">Vi hjälper dig</a>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
             <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -93,84 +133,48 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
-        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
 
-    <!--Content-->
+        <!--Content-->
 
-    <!-- Footer -->
-<footer class="page-footer font-small unique-color-dark">
+        <!-- Footer -->
+        <footer class="page-footer font-small unique-color-dark">
 
-        
-        <!-- Footer Links -->
-        <div class="container text-center text-md-left mt-5">
-      
-          <!-- Grid row -->
-          <div class="row mt-3">
-      
-            <!-- Grid column -->
-            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-      
-              <!-- Content -->
-              <h6 class="text-uppercase font-weight-bold">Schampo.se</h6>
-              <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-              <p>Vår vision är att du ska känna att du har många år kvar när du ser dig i spegeln. Vi vill att du ska 
-                kunna dra kammen i ditt manliga hår och känna hur fylligt ditt hår är. Du är en kung och ditt hår är din krona. 
-              </p>
-               
-      
-            </div>
-            <!-- Grid column -->
-      
-            <!-- Grid column -->
-            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-      
-              <!-- Links -->
-              <h6 class="text-uppercase font-weight-bold">Sociala Medier</h6>
-              <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-              
-                      <p>
+
+            <!-- Footer Links -->
+            <div class="container text-center text-md-left mt-5">
+
+                <!-- Grid row -->
+                <div class="row mt-3">
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+                        <!-- Content -->
+                        <h4 class="text-uppercase font-weight-bold">Schampo.se</h4>
+                        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                        <p>Vår vision är att du ska känna att du har många år kvar när du ser dig i spegeln. Vi vill att
+                            du ska
+                            kunna dra kammen i ditt manliga hår och känna hur fylligt ditt hår är. Du är en kung och
+                            ditt hår är din krona.
+                        </p>
+
+
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+
+                        <!-- Links -->
+                        <h4 class="text-uppercase font-weight-bold">Sociala Medier</h4>
+                        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+
+                        <p>
                             <i class="fab fa-facebook-f white-text  mr-4"></i>Facebook</p>
                         <p>
                             <i class="fab fa-twitter white-text mr-4"></i>Twitter</p>
                         <p>
                             <i class="fab fa-instagram white-text mr-4"></i>Instagram</p>
-                          
-      
-            </div>
-            <!-- Grid column -->
-      
-            
-      
-            <!-- Grid column -->
-            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-      
-              <!-- Links -->
-              <h6 class="text-uppercase font-weight-bold">Kontakt</h6>
-              <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-              <p>
-                <i class="fas fa-home mr-3"></i> TUC Sweden, 58823 Linköping</p>
-              <p>
-                <i class="fas fa-envelope mr-3"></i> info@tucsweden.se</p>
-              <p>
-                <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
-              <p>
-                <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
-            </div>
-            <!-- Grid column -->
-          </div>
-          <!-- Grid row -->
-        </div>
-        <!-- Footer Links -->
-      </footer>
-      <!-- Footer -->
 
 
                     </div>
@@ -182,12 +186,12 @@
                     <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
 
                         <!-- Links -->
-                        <h6 class="text-uppercase font-weight-bold">Kontakt</h6>
+                        <h4 class="text-uppercase font-weight-bold">Kontakt</h4>
                         <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                         <p>
-                            <i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+                            <i class="fas fa-home mr-3"></i> TUC Sweden, 58823 Linköping</p>
                         <p>
-                            <i class="fas fa-envelope mr-3"></i> info@example.com</p>
+                            <i class="fas fa-envelope mr-3"></i> info@tucsweden.se</p>
                         <p>
                             <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
                         <p>
@@ -202,15 +206,45 @@
         <!-- Footer -->
 
 
-        
+    </div>
+    <!-- Grid column -->
+
+
+
+    <!-- Grid column -->
+    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold">Kontakt</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+            <i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+        <p>
+            <i class="fas fa-envelope mr-3"></i> info@example.com</p>
+        <p>
+            <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+        <p>
+            <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+    </div>
+    <!-- Grid column -->
+    </div>
+    <!-- Grid row -->
+    </div>
+    <!-- Footer Links -->
+    </footer>
+    <!-- Footer -->
+
+
+
     <div class="popup-box chat-popup" id="qnimate">
         <div class="popup-head">
 
-          <div class="float-right">
-              <button data-widget="remove" id="removeClass" class="chat-header-button pull-right" type="button"><i class="fas fa-power-off"></i>
-              </button>
+            <div class="float-right">
+                <button data-widget="remove" id="removeClass" class="chat-header-button pull-right" type="button"><i
+                        class="fas fa-power-off"></i>
+                </button>
 
-          </div>
+            </div>
             <div class="popup-head-left pull-left"><img src="img/chat.jpg"> Harry Hårfager</div>
         </div>
         <div class="popup-messages">
@@ -242,7 +276,7 @@
                 <div class="chat-box-single-line">
                     <abbr class="timestamp">July 23, 2019</abbr>
                 </div>
-    
+
                 <!-- Message. Default to the left -->
                 <div class="direct-chat-msg doted-border">
                     <div class="direct-chat-info clearfix">
@@ -268,10 +302,6 @@
         </div>
         <div class="popup-messages-footer">
             <textarea id="status_message" placeholder="Type a message..." rows="10" cols="40" name="message"></textarea>
-            <div class="btn-footer">
-                
-                <button class="bg_none pull-right"><i class="glyphicon glyphicon-thumbs-up"></i> </button>
-            </div>
         </div>
     </div>
 

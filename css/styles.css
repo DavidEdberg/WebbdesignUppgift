@@ -4,8 +4,26 @@
 .titleText{
     font-family: 'Pacifico', cursive;
     font-size: 4em;
-    color: #343a40;
+    color: #e6e6e6;
     padding-bottom: 0.2em;
+}
+.nav-item{
+    margin: auto;
+   
+}
+
+.nav-link:hover {
+     color: black !important;
+     background-color: #c0c0c08a;
+     transition: .5s;
+     border-radius: 10%;
+     
+    }
+#navbarsExample08{
+    font-size: x-large;
+}
+.carousel-caption h1, .carousel-caption p{
+    text-shadow: 2px 2px 3px black, 0 0 2em #353a40, 0 0 0.3em black;
 }
 
 .popup-box {
@@ -231,8 +249,8 @@
     position: absolute;
     top: 0;
     width: 2px;
-	 display: inline;
-	  z-index: -2;
+	display: inline;
+	z-index: -2;
 }
 .direct-chat-text::after, .direct-chat-text::before {
    
